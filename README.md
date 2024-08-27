@@ -16,7 +16,7 @@ Note: Add SECURE_WEATHER_API_KEY in .env file
 
 Run Docker container:
 ##
-    docker run -p 7081:7080 --env-file <.env-file-path> weather_app:latest
+    docker run -p 3001:3000 --env-file <.env-file-path> weather_app:latest
 
 # Kubernetes setup
 
